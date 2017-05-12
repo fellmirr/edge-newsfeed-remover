@@ -1,0 +1,19 @@
+{
+  "name": "Facebook Newsfeed Remover",
+  "version": "1.0",
+  "description": "Removes the newsfeed from facebook",
+  "author": "Håkon Harnes",
+  "icons": {
+    "24": "icon/icon-24.png",
+    "44": "icon/icon-44.png",
+    "48": "icon/icon-48.png",
+    "50": "icon/icon-50.png",
+    "150": "icon/icon-150.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.facebook.com/*"],
+      "css": ["main.css"]
+    }
+  ]
+}

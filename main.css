@@ -1,0 +1,5 @@
+div[id^="topnews_main_stream"] {
+    position: relative;
+    z-index: -1;
+    opacity: 0;
+}
